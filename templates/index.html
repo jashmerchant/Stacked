@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+    <title>Stacked</title>
+    <style>
+      .card-img-top {
+            width: 100%;
+            height: 28vw;
+            object-fit: cover;
+      }
+      .mt-auto {
+       margin-top: 50px !important;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/"><img src="/static/Books.png" alt="" style="filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(163deg) brightness(103%) contrast(103%);"> Stacked</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="/login" style="padding-right: 30px;"><i class="fas fa-user"></i> Login</a>
+                  </li>
+                  <li class="nav-item">
+                      <button type="button" class="btn btn-light" onclick="window.location.href='/signup';"><i class="fas fa-user-plus"></i> Signup</button>
+                  </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+
+      <div class="jumbotron jumbotron-fluid py-4">
+        <div class="container">
+          <h1 class="display-4">Welcome to Stacked</h1>
+          <p class="lead">The most popular book library on the internet which consists of 4000+ popular books by world famous authors.</p>
+          <hr class="my-4">
+          <a class="btn btn-primary btn-md" href="/signup" role="button">Create Account</a>
+        </div>
+      </div>
+
+      <h1 style="text-align: center;">Popular Titles <i class="fas fa-fire"></i></h1><br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://kbimages1-a.akamaihd.net/dd1baacc-184b-4f28-a7d5-6dbe70816fb7/1200/1200/False/a-game-of-thrones.jpg" class="card-img-top" alt="A Game of Thrones">
+              <div class="card-body">
+                <h5 class="card-title">A Game of Thrones</h5>
+                <h6 class="card-subtitle mb-2 text-muted">by George R. R. Martin</h6>
+                <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                <a href="/login" class="btn btn-secondary">Login to view</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://m.media-amazon.com/images/I/51rVr4utFRL.jpg" class="card-img-top" alt="The Rudest Book Ever">
+              <div class="card-body">
+                <h5 class="card-title">The Rudest Book Ever</h5>
+                <h6 class="card-subtitle mb-2 text-muted">by Shwetabh Gangwar</h6>
+                <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                <a href="/login" class="btn btn-secondary">Login to view</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://kbimages1-a.akamaihd.net/fdf06d9a-d900-48dd-94fb-1c14eb5b94ba/1200/1200/False/the-da-vinci-code.jpg" class="card-img-top" alt="The Da Vinci Code">
+              <div class="card-body">
+                <h5 class="card-title">The Da Vinci Code</h5>
+                <h6 class="card-subtitle mb-2 text-muted">by Dan Brown</h6>
+                <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                <a href="/login" class="btn btn-secondary">Login to view</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://images-na.ssl-images-amazon.com/images/I/918KkftCUFL.jpg" class="card-img-top" alt="13 Reasons Why">
+              <div class="card-body">
+                <h5 class="card-title">13 Reasons Why</h5>
+                <h6 class="card-subtitle mb-2 text-muted">by Jay Asher</h6>
+                <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></p>
+                <a href="/login" class="btn btn-secondary">Login to view</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+          <span class="text-muted" style="color: white !important;">&copy; Copyright <strong>Stacked</strong> 2020. All Rights Reserved</span>
+        </div>
+      </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
